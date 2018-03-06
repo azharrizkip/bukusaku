@@ -1,0 +1,101 @@
+  * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.img img{
+
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  background-repeat: no-repeat;
+
+}
+body {
+  background: #515151;
+  
+
+}
+.login {
+  width: 320px;
+  padding: 0 0 0 0;
+ 
+}
+
+@keyframes loading {
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.login-form {
+  padding: 0;
+  width: 100%;
+}
+
+.login-input {
+  display: block;
+  background: none;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  box-shadow: none;
+  border-color: #fff;
+  border-width: 0 0 2px 0;
+  width: 100%;
+  color: #fff;
+}
+.login-input + .login-input {
+  margin: 10px 0 0;
+}
+.login-input:focus {
+  outline: none;
+  border-bottom-color: #05fc22;
+  color: green;
+}
+.ph-button {
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 0px 0px 0px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;    
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;  
+    font: 100%/1 "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700; 
+    padding: 8px 15px 8px 15px;
+    font-size: 1rem;;
+    width: 100%;
+  
+}
+.ph-btn-grey {
+
+     background-color: #BC0000;
+     border-color: #fff;
+}
+.ph-btn-grey:hover, .ph-btn-grey:focus, .ph-btn-grey:active {
+    background-color: #ED0707;
+    border-color: #fff; 
+}
+.ph-btn-grey2 {
+
+     background-color: #A7A7A7;
+     border-color: #fff;
+}
+.ph-btn-grey2:hover, .ph-btn-grey:focus, .ph-btn-grey:active {
+    background-color: #5F5F5F;
+    border-color: #fff; 
+}

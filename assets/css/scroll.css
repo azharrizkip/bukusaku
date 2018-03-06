@@ -1,0 +1,23 @@
+#scroll-hide{
+  width:100%;
+  overflow:hidden;
+  background:#000;
+}
+#scroll-hide .inner{
+  width:100%;
+  height:100%;
+  overflow:auto;
+  margin:0px;
+  padding-right:0px;
+  
+}
+.ktabel{
+  width: 100%;
+  color: grey;
+  text-align: center;
+  font-weight: bold;
+  line-height: 5%;
+  padding-top: 5%;
+  border-bottom: 5px solid grey;
+ 
+}

@@ -1,0 +1,27 @@
+.profil{
+	font: 100%/1 "Helvetica Neue", Arial, sans-serif;
+	margin-left: 3%;
+	font-weight: bold;
+	font-size: 16px;
+}
+.profil img{
+  width: 35%;
+  height: 35%;
+  margin: 3% auto;
+  padding: 0;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.ktabel{
+  width: 100%;
+  color: grey;
+  text-align: center;
+  font-weight: bold;
+  line-height: 5%;
+  padding-top: 5%;
+  border-bottom: 5px solid grey;
+ background: transparant;
+}
+.navbar{
+  background-color: #ff1e1e;
+}
